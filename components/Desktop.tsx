@@ -13,10 +13,10 @@ export default function Desktop() {
           <h2>Jared</h2>
         </div>
         <p className="font-newsreader text-base pr-40 italic slide-up">
-          "Aku ingin mencintaimu dengan sederhana; dengan kata yang tak sempat
-          diucapkan kayu kepada api yang menjadikannya abu. Aku ingin
+          &quot; Aku ingin mencintaimu dengan sederhana; dengan kata yang tak
+          sempat diucapkan kayu kepada api yang menjadikannya abu. Aku ingin
           mencintaimu dengan sederhana; dengan isyarat yang tak sempat
-          disampaikan awan kepada hujan yang menjadikannya tiada."
+          disampaikan awan kepada hujan yang menjadikannya tiada.&quot;
           <br />— Sapardi Djoko Damono
         </p>
       </div>

@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
+import Image from "next/image";
 
 export default function MainMusic() {
   const [isVisible, setIsVisible] = useState(false);
@@ -84,19 +85,19 @@ export default function MainMusic() {
         <Carousel className="mt-10  w-2/3 md:h-full mx-auto">
           <CarouselContent>
             <CarouselItem className="h-[390px] w-[280px]">
-              <img src="/img/Cover1.jpg" alt="image" />
+              <Image src="/img/Cover1.jpg" alt="image" />
             </CarouselItem>
             <CarouselItem className="h-[390px] w-[280px]">
-              <img src="/img/Cover2.jpeg" alt="image" />
+              <Image src="/img/Cover2.jpeg" alt="image" />
             </CarouselItem>
             <CarouselItem className="h-[390px] w-[280px]">
-              <img src="/img/Cover3.jpg" alt="image" />
+              <Image src="/img/Cover3.jpg" alt="image" />
             </CarouselItem>
             <CarouselItem className="h-[390px] w-[280px]">
-              <img src="/img/Cover4.jpg" alt="image" />
+              <Image src="/img/Cover4.jpg" alt="image" />
             </CarouselItem>
             <CarouselItem className="h-[390px] w-[280px]">
-              <img src="/img/Cover5.jpg" alt="image" />
+              <Image src="/img/Cover5.jpg" alt="image" />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
